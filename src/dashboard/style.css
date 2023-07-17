@@ -1,0 +1,62 @@
+.welcome-text {
+  color: #3a3541;
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.15px;
+  margin-bottom: 20px;
+}
+.investor-card {
+  width: 323px;
+  height: 178px;
+  align-items: center;
+  flex: 1 0 0;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.investor-text {
+  width: 179px;
+  height: 14.649px;
+  color: #8e8e8e;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.15px;
+}
+.number-text {
+  color: var(rgba(58, 53, 65, 0.87));
+  font-family: Lato;
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 10%;
+}
+.year-text {
+  margin-top: 10%;
+  border-radius: 64px;
+  background: var(
+    --light-custom-background-primary-background,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.88) 0%,
+      rgba(255, 255, 255, 0.88) 100%
+    ),
+    #9155fd
+  );
+  color: var(#9155fd);
+  text-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 166.667% */
+  letter-spacing: 0.14px;
+}
+
+/* .savings-img {
+  position: absolute;
+  margin-left: 50%;
+} */
