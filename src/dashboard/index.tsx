@@ -96,7 +96,11 @@ export const Dashboard = () => {
           <tr>
             <td>
               <Row>
-                <Col span={5} className="table-col-align">
+                <Col
+                  style={{ alignItems: "center", display: "flex" }}
+                  span={5}
+                  className="table-col-align"
+                >
                   <Avatar src="https://xsgames.co/randomusers/avatar.php?g=pixel&key=1" />
                 </Col>
                 <Col span={19} className="table-header-text">
@@ -120,7 +124,11 @@ export const Dashboard = () => {
           <tr>
             <td>
               <Row>
-                <Col span={5} className="table-col-align">
+                <Col
+                  style={{ alignItems: "center", display: "flex" }}
+                  span={5}
+                  className="table-col-align"
+                >
                   <Avatar src="https://xsgames.co/randomusers/avatar.php?g=pixel&key=2" />
                 </Col>
                 <Col span={19} className="table-header-text">
