@@ -7,7 +7,15 @@ export const Dashboard = () => {
     <>
       <Row className="welcome-text">Welcome to Connect2Investors!</Row>
       <Row>
-        <Col lg={8} md={12} sm={24} xl={8} span={8}>
+        <Col
+          style={{ marginBottom: "15px" }}
+          span={8}
+          xs={24}
+          xl={8}
+          sm={24}
+          md={24}
+          lg={8}
+        >
           <Card className="investor-card">
             <Row className="investor-text">No of Investors</Row>
             <Row className="number-text">20</Row>
@@ -20,7 +28,15 @@ export const Dashboard = () => {
           </Card>
         </Col>
 
-        <Col span={8}>
+        <Col
+          style={{ marginBottom: "15px" }}
+          span={8}
+          xs={24}
+          xl={8}
+          sm={24}
+          md={24}
+          lg={8}
+        >
           <Card className="investor-card">
             <Row className="investor-text">No of Mentors</Row>
             <Row className="number-text">20</Row>
@@ -36,7 +52,15 @@ export const Dashboard = () => {
           </Card>
         </Col>
 
-        <Col span={8}>
+        <Col
+          style={{ marginBottom: "15px" }}
+          span={8}
+          xs={24}
+          xl={8}
+          sm={24}
+          md={24}
+          lg={8}
+        >
           <Card className="investor-card">
             <Row className="investor-text">No of Startups</Row>
             <Row className="number-text">20</Row>
